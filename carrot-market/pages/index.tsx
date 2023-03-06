@@ -122,9 +122,27 @@ const Home: NextPage = () => {
     //   <input type="submit" value="Login" className="bg-white" />
     // </form>
     <div className="flex flex-col space-y-2 p-5">
-      <details>
-        <summary>What is my fav. food.</summary>
-      </details>
+      {/* <details className="selct-none open:bg-indigo-400 open:text-white">
+        <summary className="cursor-pointer ">What is my fav. food.</summary>
+        <span className="selection:bg-indigo-600 selection:text-white">
+          육개장
+        </span>
+      </details> */}
+      {/* <ul className="list-decimal marker:text-teal-500">
+        <li>hi</li>
+        <li>hi</li>
+        <li>hi</li>
+      </ul> */}
+      {/* <input
+        type="file"
+        className="file:cursor-pointer file:rounded-xl file:border-0 file:bg-purple-400 file:px-5 file:text-white file:transition-colors file:hover:border-2 file:hover:bg-white file:hover:text-purple-400"
+        // selecter가 없으면 전체에 반영된 file 로 지정해야 함 2가지 modifier도 사용가능 file:hover처럼
+      /> */}
+      <p className="first-letter:text-7xl first-letter:hover:text-purple-400">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sed vel,
+        accusantium nisi eius fuga officia consectetur vero. Velit nam fugiat
+        ullam consectetur quam sequi maxime enim est, laudantium tempora!
+      </p>
     </div>
   );
 };
